@@ -1,0 +1,1294 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    background: rgba(181,216,255,255);
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container
+{
+    position: relative;
+    width: 80%;
+    height: 90%;
+    border-radius: 40px;
+    background: url("bg1-removebg-preview.png");
+    overflow: hidden;
+    box-shadow: 0px 10px 25px -8px #000;
+}
+
+.container span
+{
+    position: absolute;
+    left: 75px;
+    top: 150px;
+    font-size: 5em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.container .r 
+{
+    top: 180px;
+    transform: translateX(-50px);
+    font-size: 2em;
+    cursor: pointer;;
+}
+
+.container .l 
+{
+    top: 180px;
+    transform: translateX(130px);
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.container p
+{
+    position: absolute;
+    left: 80px;
+    top: 235px;
+    color: #fff;
+}
+
+
+.container .plus
+{
+    top: 30px;
+    left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container .toggle
+{
+    top: 30px;
+    left: 170px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container .city1 
+{
+    position: absolute;
+    top: -70px;
+    font-size: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    left: -60px;
+    
+}
+
+.container  .city1 i
+{
+   margin-right: 3px;
+}
+
+
+.container .time1
+{
+    position: absolute;
+    top: -160px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    left: 80px;
+}
+
+.container .city2
+{
+    position: absolute;
+    top: -120px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    left: -60px;
+}
+
+.container .time2
+{
+    position: absolute;
+    top: -130px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    left: 80px;
+}
+
+.container .right
+{
+   position: relative;
+   float: right;
+   width: 80%;
+   height: 100%;
+   border-radius: 40px;
+   background: rgba(228,241,255,255);
+   /* box-shadow: 0px 10px 25px -8px #000; */
+}
+
+.container .right .header
+{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    /* background-color: #000; */
+}
+
+.container .right .header .rnav
+{
+    position: absolute;
+    width: 100%;
+    top: -200px;
+    left: -40px;
+}
+
+.container .right .header .rnav p 
+{
+    color: #000;
+}
+
+.container .right .header .rnav .sub
+{
+    transform: translateY(20px);
+    /* color: red; */
+}
+
+.container .right .header .lnav .img
+{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLlytxqv-FfBrnNN6gvPonhxEXdVqR7uoM3w&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    border-radius: 20px;
+
+}
+
+.container .right .header .lnav p
+{ 
+   top: 45px;
+   left: 870px;
+   color: #000;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+.container .right .graph
+{
+    top: 100px;
+    left: 40px;
+    position: absolute;
+    width: 900px;
+    height: 250px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.container .right .graph .title
+{
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    color: #000;
+}
+
+.container .right .graph .rain 
+{
+    position: absolute;
+    top: 10px;
+    right: 220px;
+    width: 215px;
+    height: 30px;
+    background: #999;
+    border-radius: 7px;
+    opacity: 0.7;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.container .right .graph .rain p
+{
+    color: #000;
+    top: 5px;
+    transform: translateX(-35px);
+} 
+
+.container .right .graph .rain p i 
+{
+    padding-left: 5px;
+}
+
+.container .right .graph .next
+{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 180px;
+    height: 30px;
+    background: whitesmoke;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.container .right .graph .next p
+{
+    top: 6px;
+    transform: translateX(-30px);
+    color: #000;
+}
+
+.container .right .graph .next p i 
+{
+    padding-left: 5px;
+}
+
+.container .right .graph .wave
+{
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.container .right .graph .wave .one
+{
+   position: absolute;
+   left: 19px;
+   top: 80px;
+   width: 1px;
+   height: 150px;
+   background: #000;
+}
+
+.container .right .graph .wave .two
+{
+   position: absolute;
+   left: 190px;
+   top: 80px;
+   width: 1px;
+   height: 150px;
+   background: #000;
+}
+
+.container .right .graph .wave .three
+{
+   position: absolute;
+   left: 365px;
+   top: 80px;
+   width: 0.5px;
+   height: 150px;
+   background: #000;
+}
+
+.container .right .graph .wave .four
+{
+   position: absolute;
+   left: 535px;
+   top: 80px;
+   width: 1px;
+   height: 150px;
+   background: #000;
+}
+
+.container .right .graph .wave .five 
+{
+   position: absolute;
+   left: 710px;
+   top: 80px;
+   width: 1px;
+   height: 150px;
+   background: #000;
+}
+
+.container .right .graph .wave .six
+{
+   position: absolute;
+   left: 880px;
+   top: 80px;
+   width: 1px;
+   height: 150px;
+   background: #000;
+}
+
+.container .right .graph .wave .stick .duration 
+{
+    top: 45px;
+    font-size: 15px;
+    left: 10px;
+    color: #000;
+    opacity: 0.8;
+}
+
+.container .right .graph .wave .stick .temp
+{
+    top: 65px;
+    font-size: 15px;
+    left: 13px;
+    color: #000;
+    opacity: 0.8;
+}
+
+.container .right .graph .wave .stick .level
+{
+    position: absolute;
+    top: 230px;
+    left: 10px;
+    font-size: 15px;
+    color: #000;
+    opacity: 0.8;
+}
+
+
+.container .right .graph .wave .stick1 .duration 
+{
+    top: 45px;
+    font-size: 15px;
+    left: 175px;
+    color: #000;
+    opacity: 0.8;
+}
+
+.container .right .graph .wave .stick1 .temp
+{
+    top: 65px;
+    font-size: 15px;
+    left: 183px;
+    color: #000;
+    opacity: 0.8;
+}
+
+.container .right .graph .wave .stick1 .level
+{
+    position: absolute;
+    top: 230px;
+    left: 183px;
+    font-size: 15px;
+    color: #000;
+    opacity: 0.8;
+}
+
+.container .right .graph .wave .stick2 .duration 
+{
+    top: 45px;
+    font-size: 15px;
+    left: 345px;
+    color: #000;
+    opacity: 0.8;
+}
+
+.container .right .graph .wave .stick2 .temp
+{
+    top: 65px;
+    font-size: 15px;
+    left: 355px;
+    color: #000;
+    opacity: 0.8;
+}
+
+.container .right .graph .wave .stick2 .level
+{
+    position: absolute;
+    top: 230px;
+    left: 355px;
+    font-size: 15px;
+    color: #000;
+    opacity: 0.8;
+}
+
+.container .right .graph .wave .stick3 .duration 
+{
+    top: 45px;
+    font-size: 15px;
+    left: 515px;
+    color: #000;
+    opacity: 0.8;
+}
+
+.container .right .graph .wave .stick3 .temp
+{
+    top: 65px;
+    font-size: 15px;
+    left: 527px;
+    color: #000;
+    opacity: 0.8;
+}
+
+.container .right .graph .wave .stick3 .level
+{
+    position: absolute;
+    top: 230px;
+    left: 527px;
+    font-size: 15px;
+    color: #000;
+    opacity: 0.8;
+}
+
+.container .right .graph .wave .stick4 .duration 
+{
+    top: 45px;
+    font-size: 15px;
+    left: 690px;
+    color: #000;
+    opacity: 0.8;
+}
+
+.container .right .graph .wave .stick4 .temp
+{
+    top: 65px;
+    font-size: 15px;
+    left: 701px;
+    color: #000;
+    opacity: 0.8;
+}
+
+.container .right .graph .wave .stick4 .level
+{
+    position: absolute;
+    top: 230px;
+    left: 701px;
+    font-size: 15px;
+    color: #000;
+    opacity: 0.8;
+}
+
+.container .right .graph .wave .stick5 .duration 
+{
+    top: 45px;
+    font-size: 15px;
+    left: 859px;
+    color: #000;
+    opacity: 0.8;
+}
+
+.container .right .graph .wave .stick5 .temp
+{
+    top: 65px;
+    font-size: 15px;
+    left: 870px;
+    color: #000;
+    opacity: 0.8;
+}
+
+.container .right .graph .wave .stick5 .level
+{
+    position: absolute;
+    top: 230px;
+    left: 870px;
+    font-size: 15px;
+    color: #000;
+    opacity: 0.8;
+}
+
+.container .right .charts
+{
+    position: absolute;
+    width: 100%;
+    top: 370px;
+    left: 40px;
+    height: 250px;
+    width: 900px;
+    /* background: #999; */
+    border-radius: 20px;
+}
+
+.container .right .charts p 
+{
+    top: 0;
+    left: 0;
+    color: #000;
+}
+
+.container .right .charts .row1
+{
+    transform: translateY(20px);
+   display: flex;
+   justify-content: center;
+   align-items: center;   
+}
+
+.container .right .charts .row1 .ch1
+{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 200px;
+    height: 100px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.container .right .charts .row1 .ch2
+{
+    position: absolute;
+    top: 10px;
+    /* left: 0; */
+    width: 200px;
+    height: 100px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.container .right .charts .row1 .ch3
+{
+    position: absolute;
+    top: 10px;
+    margin-left: 700px;
+    /* left: 0; */
+    width: 200px;
+    height: 100px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.container .right .charts .row1 .ch2 p
+{
+   padding: 10px;
+   font-weight: 550;
+}
+
+.container .right .charts .row1 .ch2 .icon
+{
+    position: absolute;
+    top: 10px;
+    left: 160px;
+}
+
+.container .right .charts .row1 .ch2 .icon svg
+{
+    color: #90c5f5;
+}
+
+.container .right .charts .row1 .ch2 .speedo
+{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    border-radius: 12rem 12rem 0 0;
+    border: 4px solid #999;
+    border-bottom: none;
+    border-left: 5px solid #90c5f5;
+    top: 30px;
+    left: 40px;
+}
+
+.container .right .charts .row1 .ch2 .zero
+{
+    position: absolute;
+    top: 65px;
+    left: 20px;
+    opacity: 0.8;
+}
+
+.container .right .charts .row1 .ch2 .one
+{
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    opacity: 0.8;
+}
+
+.container .right .charts .row1 .ch2 .two
+{
+    position: absolute;
+    top: 10px;
+    left: 49px;
+    opacity: 0.8;
+}   
+
+.container .right .charts .row1 .ch2 .three
+{
+    position: absolute;
+    top: 10px;
+    left: 118px;
+    opacity: 0.8;   
+}
+
+.container .right .charts .row1 .ch2 .four
+{
+    position: absolute;
+    top: 35px;
+    left: 142px;
+    opacity: 0.8;   
+}
+
+.container .right .charts .row1 .ch2 .five
+{
+    position: absolute;
+    top: 65px;
+    left: 153px;
+    opacity: 0.8;
+}
+
+.container .right .charts .row1 .ch2 .hero-text
+{
+    position: absolute;
+    top: 55px;
+    left: 55px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* row2 */
+
+.container .right .charts .row2
+{
+   transform: translateY(140px);
+   display: flex;
+   justify-content: center;
+   align-items: center;   
+}
+
+.container .right .charts .row2 .ch1
+{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 200px;
+    height: 100px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.container .right .charts .row2 .ch2
+{
+    position: absolute;
+    top: 10px;
+    /* left: 0; */
+    width: 200px;
+    height: 100px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.container .right .charts .row2 .ch3
+{
+    position: absolute;
+    top: 10px;
+    margin-left: 700px;
+    /* left: 0; */
+    width: 200px;
+    height: 100px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.container .right .charts .row1 .ch1 p 
+{
+    padding: 10px;
+    font-weight: 550;
+}
+
+
+.container .right .charts .row1 .ch1 span 
+{
+    top: 10px;
+    left: 160px;
+    color: #90c5f5;
+    font-size: 20px;
+}
+
+.container .right .charts .row1 .ch1 .text
+{
+    top: 20px;
+    font-size: 30px;
+    left: 40px;
+}
+
+.container .right .charts .row1 .ch1 .text span
+{
+    top: 16px;
+    font-size: 30px;
+    left: 69px;
+    color: #000;
+    font-size: 25px;
+    padding-left: 2px;
+}
+
+
+.container .right .charts .row1 .ch1 .bars
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .right .charts .row1 .ch1 .bars .bar1 
+{
+    position: absolute;
+    top: 52px;
+    left: 10px;
+    font-size: 13px;
+}
+
+.container .right .charts .row1 .ch1 .bars .bar1 .barss 
+{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 30px;
+    height: 10px;
+    background: #90c5f5;
+    border-radius: 7px;
+}
+
+.container .right .charts .row1 .ch1 .bars .bar2
+{
+    position: absolute;
+    top: 52px;
+    left: 70px;
+    font-size: 13px;   
+}
+
+.container .right .charts .row1 .ch1 .bars .bar2 .barss 
+{
+    position: absolute;
+    left: 15px;
+    top: 30px;
+    width: 30px;
+    height: 10px;
+    background: #90c5f5;
+    border-radius: 7px;
+}
+
+.container .right .charts .row1 .ch1 .bars .bar3
+{
+    position: absolute;
+    top: 52px;
+    left: 130px;
+    font-size: 13px;   
+}
+
+.container .right .charts .row1 .ch1 .bars .bar3 p
+{
+    transform: translateX(7px);
+}
+
+.container .right .charts .row1 .ch1 .bars .bar3 .barss 
+{
+    position: absolute;
+    left: 15px;
+    top: 30px;
+    width: 30px;
+    height: 10px;
+    background: #90c5f5;
+    border-radius: 7px;
+    border-right: 20px solid #999;
+}
+
+/* ch3 */
+
+.container .right .charts .row1 .ch3 p 
+{
+    padding: 10px;
+    font-weight: 550;
+}
+
+.container .right .charts .row1 .ch3 .icon
+{
+    top: -15px;
+    left: 140px;
+    font-size: 40px;
+    color: #90c5f5;
+}
+
+.container .right .charts .row1 .ch3 .hero-text
+{
+    top: 20px;
+    left: 40px;
+    font-size: 30px;
+}
+
+.container .right .charts .row1 .ch3 .bars
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .right .charts .row1 .ch3 .bars .bar1 
+{
+    position: absolute;
+    top: 52px;
+    left: 10px;
+    font-size: 13px;
+    /* margin-left: 10px; */
+}
+
+.container .right .charts .row1 .ch3 .bars .bar1 .barss 
+{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 10px;
+    height: 10px;
+    background: #90c5f5;
+    border-radius: 5px;
+}
+
+.container .right .charts .row1 .ch3 .bars .bar2 
+{
+    position: absolute;
+    top: 52px;
+    left: 10px;
+    font-size: 13px;
+    margin-left: 18px;
+}
+
+.container .right .charts .row1 .ch3 .bars .bar2 p
+{
+   transform: translateX(-3px);
+}
+
+.container .right .charts .row1 .ch3 .bars .bar2 .barss 
+{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 10px;
+    height: 10px;
+    background: #90c5f5;
+    border-radius: 7px;
+    border-right: 5px solid #999;
+}
+
+.container .right .charts .row1 .ch3 .bars .bar3 
+{
+    position: absolute;
+    top: 52px;
+    left: 10px;
+    font-size: 13px;
+    margin-left: 35px;
+}
+
+.container .right .charts .row1 .ch3 .bars .bar3 .barss 
+{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 10px;
+    height: 10px;
+    background: #999;
+    border-radius: 7px;
+}
+
+
+.container .right .charts .row1 .ch3 .bars .bar4
+{
+    position: absolute;
+    top: 52px;
+    left: 10px;
+    font-size: 13px;
+    margin-left: 54px;
+}
+
+.container .right .charts .row1 .ch3 .bars .bar4 .barss 
+{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 10px;
+    height: 10px;
+    background: #999;
+    border-radius: 7px;
+}
+
+.container .right .charts .row1 .ch3 .bars .bar5 
+{
+    position: absolute;
+    top: 52px;
+    left: 10px;
+    font-size: 13px;
+    margin-left: 73px;
+}
+
+.container .right .charts .row1 .ch3 .bars .bar5 .barss 
+{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 10px;
+    height: 10px;
+    background: #999;
+    border-radius: 7px;
+}
+
+.container .right .charts .row1 .ch3 .bars .bar6 
+{
+    position: absolute;
+    top: 52px;
+    left: 10px;
+    font-size: 13px;
+    margin-left: 93px;
+}
+
+.container .right .charts .row1 .ch3 .bars .bar6 .barss 
+{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 10px;
+    height: 10px;
+    background: #999;
+    border-radius: 7px;
+}
+
+.container .right .charts .row1 .ch3 .bars .bar7
+{
+    position: absolute;
+    top: 52px;
+    left: 10px;
+    font-size: 13px;
+    margin-left: 110px;
+}
+
+.container .right .charts .row1 .ch3 .bars .bar7 .barss 
+{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 10px;
+    height: 10px;
+    background: #999;
+    border-radius: 7px;
+}
+
+.container .right .charts .row1 .ch3 .bars .bar8 
+{
+    position: absolute;
+    top: 52px;
+    left: 10px;
+    font-size: 13px;
+    margin-left: 128px;
+}
+
+.container .right .charts .row1 .ch3 .bars .bar8 .barss 
+{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 10px;
+    height: 10px;
+    background: #999;
+    border-radius: 7px;
+}
+
+.container .right .charts .row1 .ch3 .bars .bar9
+{
+    position: absolute;
+    top: 52px;
+    left: 10px;
+    font-size: 13px;
+    margin-left: 145px;
+}
+
+.container .right .charts .row1 .ch3 .bars .bar9 .barss 
+{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 10px;
+    height: 10px;
+    background: #999;
+    border-radius: 7px;
+}
+
+.container .right .charts .row1 .ch3 .bars .bar10 
+{
+    position: absolute;
+    top: 52px;
+    left: 10px;
+    font-size: 13px;
+    margin-left: 160px;
+}
+
+.container .right .charts .row1 .ch3 .bars .bar10 .barss 
+{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 10px;
+    height: 10px;
+    background: #999;
+    border-radius: 7px;
+}
+
+
+/* Row2 */
+
+.container .right .charts .row2 .ch1 p 
+{
+   padding: 10px;
+   font-weight: 550;
+}
+
+.container .right .charts .row2 .ch1 .icon 
+{
+    top: -7px;
+    left: 150px;
+    font-size: 30px;
+    color: #90c5f5;
+}
+
+.container .right .charts .row2 .ch1 .hero-text
+{
+    top: 20px;
+    left: 40px;
+    font-size: 30px;
+}
+
+.container .right .charts .row2 .ch1 .lower
+{
+    top: 25px;
+    left: 59px;
+    font-size: 20px; 
+}
+
+.container .right .charts .row2 .ch1 .bars
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .right .charts .row2 .ch1 .bars .bar1 
+{
+    position: absolute;
+    width: 40px;
+    top: 52px;
+    left: 10px;
+    font-size: 13px;
+    /* margin-left: 10px; */
+}
+
+.container .right .charts .row2 .ch1 .bars .bar1 .barss 
+{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 40px;
+    height: 10px;
+    background: #90c5f5;
+    border-radius: 5px;
+}
+
+.container .right .charts .row2 .ch1 .bars .bar2 
+{
+    position: absolute;
+    width: 40px;
+    top: 52px;
+    left: 10px;
+    font-size: 13px;
+    margin-left: 42px;
+}
+
+.container .right .charts .row2 .ch1 .bars .bar2 .barss 
+{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 40px;
+    height: 10px;
+    background: #90c5f5;
+    border-radius: 5px;
+    border-right: 20px solid #999;
+}
+
+.container .right .charts .row2 .ch1 .bars .bar3 
+{
+    position: absolute;
+    width: 40px;
+    top: 52px;
+    left: 10px;
+    font-size: 13px;
+    margin-left: 84px;
+}
+
+.container .right .charts .row2 .ch1 .bars .bar3 .barss 
+{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 40px;
+    height: 10px;
+    background: #999;
+    border-radius: 5px;
+}
+.container .right .charts .row2 .ch1 .bars .bar4 
+{
+    position: absolute;
+    width: 40px;
+    top: 52px;
+    left: 10px;
+    font-size: 13px;
+    margin-left: 126px;
+}
+
+.container .right .charts .row2 .ch1 .bars .bar4 .barss 
+{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 40px;
+    height: 10px;
+    background: #999;
+    border-radius: 5px;
+}
+
+
+.container .right .charts .row2 .ch2 p
+{
+    padding: 10px;
+    font-weight: 550;
+}
+
+.container .right .charts .row2 .ch2 .icon
+{
+    top: -5px;
+    left: 160px;
+    font-size: 28px;
+    color: #90c5f5;
+}
+
+.container .right .charts .row2 .ch2 .hero-text
+{
+    top: 18px;
+    left: 72px;
+    font-size: 30px;
+}
+
+.container .right .charts .row2 .ch2 .bars
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .right .charts .row2 .ch2 .bars .bar1 
+{
+    position: absolute;
+    width: 40px;
+    top: 52px;
+    left: 10px;
+    font-size: 13px;
+    /* margin-left: 10px; */
+}
+
+.container .right .charts .row2 .ch2 .bars .bar1 .barss 
+{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 160px;
+    height: 10px;
+    background: #90c5f5;
+    border-radius: 5px;
+    border-right: 60px solid #999;
+}
+
+.container .right .charts .row2 .ch2 .mid
+{
+    margin-left: 70px;
+}
+
+.container .right .charts .row2 .ch2 .last
+{
+    margin-left: 145px;
+}
+
+
+.container .right .charts .row2 .ch3 p
+{
+    padding: 10px;
+    font-weight: 550;
+}
+
+.container .right .charts .row2 .ch3 .icon
+{
+    top: -5px;
+    left: 150px;
+    font-size: 28px;
+    color: #90c5f5;
+}
+
+.container .right .charts .row2 .ch3 .hero-text
+{
+    top: 18px;
+    left: 72px;
+    font-size: 30px;
+}
+
+.container .right .charts .row2 .ch3 .bars
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .right .charts .row2 .ch3 .bars .bar1 
+{
+    position: absolute;
+    width: 40px;
+    top: 52px;
+    left: 10px;
+    font-size: 13px;
+    /* margin-left: 10px; */
+}
+
+.container .right .charts .row2 .ch3 .bars .bar1 .barss 
+{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 160px;
+    height: 10px;
+    background: #90c5f5;
+    border-radius: 5px;
+    border-right: 90px solid #999;
+}
+
+.container .right .charts .row2 .ch3 .n2
+{
+    margin-left: 32px;
+}
+
+.container .right .charts .row2 .ch3 .n3
+{
+    margin-left: 70px;
+}
+
+.container .right .charts .row2 .ch3 .n4
+{
+    margin-left: 110px;
+}
+
+.container .right .charts .row2 .ch3 .n5
+{
+    margin-left: 145px;
+}

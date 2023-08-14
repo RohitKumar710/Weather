@@ -1,0 +1,240 @@
+<html>
+    <head>
+        <title>Weather</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+            <div class="container">
+                <p class="plus"><i class="fa fa-plus-square" aria-hidden="true"></i></p>  
+                <p class="toggle">&#176;C<i class="fa fa-toggle-off" aria-hidden="true"></i>&#176;F</p>
+                    <div class="city1">
+                        <span><i class="fa fa-location-arrow" aria-hidden="true"></i>New York, USA</span>
+                    </div>
+                    <div class="time1">
+                        <p>&#127749;7:19</p>
+                    </div>
+                    <div class="city2">
+                       <p>Today 28 Sept</p>
+                    </div>
+                    <div class="time2">
+                       <p>&#127751;19:32</p>
+                    </div>
+                <span class="r"><</span>
+                <span>27&#176;</span>
+                <span class="l">></span>
+                <p>&#9788;Sunny</p>
+                <div class="right">
+                    <div class="header">
+                        <div class="rnav">
+                              <p>Welcome back Isabella!</p>
+                              <p class="sub">Check out today's weather information</p>
+                        </div>
+                        <div class="lnav">
+                            <p style="cursor: pointer;">    <i class="fa fa-ellipsis-h" aria-hidden="true"></i></p>
+                            <div class="img"></div>
+                        </div>
+                    </div>
+                    <!-- Weather Graph -->
+                    <div class="graph">
+                       <p class="title">Upcoming hours</p>
+                       <div class="rain">
+                            <p>Rain Precipation<i class="fa fa-caret-down" aria-hidden="true"></i></p>
+                       </div>
+                       <div class="next">
+                           <p>Next Days<i class="fa fa-caret-right" aria-hidden="true"></i></p>
+                       </div>
+                       <div class="wave">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="100" d="M0,192L288,192L576,128L864,224L1152,256L1440,224L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path></svg>
+                        <div class="stick">
+                            <p class="duration">Now</p>
+                            <p class="temp">27&#176;</p>
+                            <span class="one"></span>
+                            <p class="level">23%</p>
+                        </div>
+                        <div class="stick1">
+                            <p class="duration">11:00</p>
+                            <p class="temp">28&#176;</p>
+                            <span class="two"></span>
+                            <p class="level">29%</p>
+                        </div>
+                        <div class="stick2">
+                            <p class="duration">12:00</p>
+                            <p class="temp">28&#176;</p>
+                            <span class="three"></span>
+                            <p class="level">58%</p>
+                        </div>
+                        <div class="stick3">
+                            <p class="duration">13:00</p>
+                            <p class="temp">29&#176;</p>
+                            <span class="four"></span>
+                            <p class="level">75%</p>
+                        </div>
+                        <div class="stick4">
+                            <p class="duration">14:00</p>
+                            <p class="temp">30&#176;</p>
+                            <span class="five"></span>
+                            <p class="level">33%</p>
+                        </div>
+                        <div class="stick5">
+                            <p class="duration">15:00</p>
+                            <p class="temp">29&#176;</p>
+                            <span class="six"></span>
+                            <p class="level">20%</p>
+                        </div>
+                        
+                       </div>
+                    </div>
+                     
+                    <!-- Charts -->
+                    <div class="charts">
+                        <p>More details of today's weather</p>
+                        <div class="row1">
+                             <div class="ch1">
+                                <p>Humidity</p>
+                                <span><i class="fa fa-tint" aria-hidden="true"></i></span>
+                                <p class="text">82%<span>bad</span></p>
+                                <div class="bars">
+                                    <div class="bar1">
+                                       <p>good</p>
+                                       <div class="barss"></div>
+                                    </div>
+                                    <div class="bar2">
+                                        <p>normal</p>
+                                        <div class="barss"></div>
+                                    </div>
+                                    <div class="bar3">
+                                        <p>bad</p>
+                                        <div class="barss"></div>
+                                     </div>
+                                 </div>
+                              </div>
+                             <div class="ch2">
+                                <p>Wind</p>
+                                <div class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-wind" viewBox="0 0 16 16">
+                                        <path d="M12.5 2A2.5 2.5 0 0 0 10 4.5a.5.5 0 0 1-1 0A3.5 3.5 0 1 1 12.5 8H.5a.5.5 0 0 1 0-1h12a2.5 2.5 0 0 0 0-5zm-7 1a1 1 0 0 0-1 1 .5.5 0 0 1-1 0 2 2 0 1 1 2 2h-5a.5.5 0 0 1 0-1h5a1 1 0 0 0 0-2zM0 9.5A.5.5 0 0 1 .5 9h10.042a3 3 0 1 1-3 3 .5.5 0 0 1 1 0 2 2 0 1 0 2-2H.5a.5.5 0 0 1-.5-.5z"/>
+                                      </svg>
+                                </div>
+                                <p class="zero">0</p>
+                                <p class="one">5</p>
+                                <p class="two">10</p>
+                                <p class="three">20</p>
+                                <p class="four">30</p>
+                                <p class="five">40</p>
+                                <div class="speedo"></div>
+                                <p class="hero-text">8 Km/h</p>
+                             </div>
+                             <div class="ch3">
+                              <p>Precipation</p>
+                              <p class="icon">&#127783</p>
+                              <p class="hero-text">1.4 cm</p>
+                              <div class="bars">
+                                <div class="bar1">
+                                   <p>0</p>
+                                   <div class="barss"></div>
+                                </div>
+                                <div class="bar2">
+                                    <p>10</p>
+                                    <div class="barss"></div>
+                                </div>
+                                <div class="bar3">
+                                    <p>20</p>
+                                    <div class="barss"></div>
+                                 </div>
+                                 <div class="bar4">
+                                    <p>30</p>
+                                    <div class="barss"></div>
+                                 </div>
+                                 <div class="bar5">
+                                     <p>40</p>
+                                     <div class="barss"></div>
+                                 </div>
+                                 <div class="bar6">
+                                     <p>50</p>
+                                     <div class="barss"></div>
+                                  </div>
+                                  <div class="bar7">
+                                    <p>60</p>
+                                    <div class="barss"></div>
+                                 </div>
+                                 <div class="bar8">
+                                     <p>70</p>
+                                     <div class="barss"></div>
+                                 </div>
+                                 <div class="bar9">
+                                     <p>80</p>
+                                     <div class="barss"></div>
+                                  </div>
+                                  <div class="bar10">
+                                    <p>90</p>
+                                    <div class="barss"></div>
+                                 </div>
+                             </div>
+                             
+                             </div>
+                        </div>
+                        <div class="row2">
+                              <div class="ch1">
+                                <p>UV index</p>
+                                <p class="icon">☼</p>
+                                <p class="hero-text">4</p>
+                                <p class="lower">medium</p>
+                                <div class="bars">
+                                    <div class="bar1">
+                                       <p>0-2</p>
+                                       <div class="barss"></div>
+                                    </div>
+                                    <div class="bar2">
+                                        <p>3-4</p>
+                                        <div class="barss"></div>
+                                    </div>
+                                    <div class="bar3">
+                                        <p>6-7</p>
+                                        <div class="barss"></div>
+                                     </div>
+                                     <div class="bar4">
+                                        <p>11+</p>
+                                        <div class="barss"></div>
+                                     </div>
+                                 </div>
+
+                              </div>
+                              <div class="ch2">
+                                   <p>Feels like</p>
+                                   <p class="icon"><i class="fa fa-thermometer-half" aria-hidden="true"></i></p>
+                                   <p class="hero-text">30&#176;</p>
+                                   <div class="bars">
+                                    <div class="bar1">
+                                       <p class="start">0&#176;</p>
+                                       <p class="mid">25&#176;</p>
+                                       <p class="last">50&#176;</p>
+                                       <div class="barss"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="ch3">
+                                <p>Chance of rain</p>
+                                <p class="icon"><i class="fa fa-umbrella" aria-hidden="true"></i></p>
+                                <p class="hero-text">42%</p>
+                                <div class="bars">
+                                 <div class="bar1">
+                                    <p class="n1">0%</p>
+                                    <p class="n2">25%</p>
+                                    <p class="n3">50%</p>
+                                    <p class="n4">75%</p>
+                                    <p class="n5">100%</p>
+                                    <div class="barss"></div>
+                                 </div>
+                              </div>
+                              </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+    </body>
+    <script src="app.js"></script>
+</html>
